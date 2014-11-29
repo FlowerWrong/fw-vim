@@ -19,7 +19,7 @@ Plugin 'jistr/vim-nerdtree-tabs'
 
 " colorscheme
 " Plugin 'flazz/vim-colorschemes'
-" Plugin 'tomasr/molokai'
+Plugin 'tomasr/molokai'
 Plugin 'altercation/vim-colors-solarized'
 
 " syntastic
@@ -67,8 +67,8 @@ syntax on
 "--------
 " color scheme
 syntax enable
-set background=dark
-colorscheme solarized
+set background=dark " light
+colorscheme molokai " solarized
 
 
 " highlight current line
@@ -120,6 +120,7 @@ autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4 textwidth=
 autocmd FileType html,htmldjango,xhtml,haml setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=0
 autocmd FileType sass,scss,css setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
 
+
 " syntax support
 autocmd Syntax javascript set syntax=jquery   " JQuery syntax support
 " js
@@ -127,17 +128,15 @@ let g:html_indent_inctags = "html,body,head,tbody"
 let g:html_indent_script1 = "inc"
 let g:html_indent_style1 = "inc"
 
-
 " synctax
 " ruby
-let g:syntastic_ruby_exec = '/home/yang/.rvm/rubies/ruby-2.1.5/bin/ruby'
+let g:syntastic_ruby_exec = '/home/yang/.rvm/rubies/ruby-2.1.5/bin/ruby' " which ruby
 
 
 " SuperTab
 " let g:SuperTabDefultCompletionType='context'
 let g:SuperTabDefaultCompletionType = '<C-X><C-U>'
 let g:SuperTabRetainCompletionType=2
-
 
 
 " autocmd vimenter * NERDTree
@@ -149,7 +148,6 @@ let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
 " let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
 let NERDTreeShowBookmarks=1
 let NERDTreeWinPos = "left"
-
 
 
 " neocomplcache
@@ -284,8 +282,10 @@ let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 " molokai
 let g:molokai_original = 1
 
+
 " vim markdown
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
 
 " js
 :set regexpengine=1
@@ -297,8 +297,6 @@ let g:javascript_conceal_return     = "⇚"
 let g:javascript_conceal_undefined  = "¿"
 let g:javascript_conceal_NaN        = "ℕ"
 let g:javascript_conceal_prototype  = "¶"
-
-
 
 
 " Keybindings for plugin toggle
