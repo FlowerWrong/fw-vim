@@ -28,8 +28,9 @@ third: Setup `Vundle`:
 ```ruby
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
-forth: Install plugins. Launch vim(ignore the errors)and run:
+forth: Install plugins. Launch vim(ignore the errors) and then run:
 ```ruby
+:PluginList
 :PluginInstall
 ```
 Thst's it!
