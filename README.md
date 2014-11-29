@@ -1,6 +1,6 @@
 ## FlowerWrong's Vim config
 
-I use `vundle` to manage my plugins.
+I use `vundle` to manage my plugins. Test on ubuntu 14.04
 
 ## Plugin list
 
@@ -15,7 +15,7 @@ https://github.com/FlowerWrong/mblog/blob/master/categories/vim/vim_plugins.md
 
 2. Clone and install this repo:
 
-        https://github.com/FlowerWrong/fw-vim.git ~/.vim
+        git clone git@github.com:FlowerWrong/fw-vim.git ~/.vim
         ln -s ~/.vim/vimrc ~/.vimrc
 
 3. Setup `Vundle`:
