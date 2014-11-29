@@ -2,6 +2,12 @@
 
 I use `vundle` to manage my plugins. Test on ubuntu 14.04
 
+## screenshorts
+
+![Vim](https://raw.githubusercontent.com/FlowerWrong/fw-vim/master/screenshorts/fw-vim.png)
+![Completions](https://raw.githubusercontent.com/FlowerWrong/fw-vim/master/screenshorts/fw-autocomplete.png)
+![Tagbar](https://raw.githubusercontent.com/FlowerWrong/fw-vim/master/screenshorts/fw-tagbar.png)
+
 ## Plugin list
 
 https://github.com/FlowerWrong/mblog/blob/master/categories/vim/vim_plugins.md
