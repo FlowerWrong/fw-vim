@@ -15,7 +15,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " nerdtree
 Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
+" Plugin 'jistr/vim-nerdtree-tabs'
 
 " colorscheme
 " Plugin 'flazz/vim-colorschemes'
@@ -59,7 +59,7 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-" enable syntax hightlight and completion
+" enable syntax hightlight and completio
 syntax on
 
 "--------
@@ -283,10 +283,6 @@ let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 let g:molokai_original = 1
 
 
-" vim markdown
-autocmd BufNewFile,BufReadPost *.md set filetype=markdown
-
-
 " js
 :set regexpengine=1
 :syntax enable
@@ -297,6 +293,10 @@ let g:javascript_conceal_return     = "⇚"
 let g:javascript_conceal_undefined  = "¿"
 let g:javascript_conceal_NaN        = "ℕ"
 let g:javascript_conceal_prototype  = "¶"
+
+
+" markdown
+autocmd BufNewFile, BufReadPost *.md set filetype=markdown
 
 
 " Keybindings for plugin toggle
