@@ -20,9 +20,9 @@ Plugin 'scrooloose/nerdtree'
 " colorscheme
 " Plugin 'flazz/vim-colorschemes'
 Plugin 'tomasr/molokai'
-Plugin 'altercation/vim-colors-solarized'
+" Plugin 'altercation/vim-colors-solarized'
 
-" syntastic
+" syntastic 
 Plugin 'scrooloose/syntastic'
 
 " neocomplcache
@@ -38,11 +38,17 @@ Plugin 'majutsushi/tagbar'
 Plugin 'kien/ctrlp.vim'
 
 " markdown, js, ruby and rails
-Plugin 'tpope/vim-markdown'
-Plugin 'pangloss/vim-javascript'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'tpope/vim-rails'
+" Plugin 'tpope/vim-markdown'
+" Plugin 'pangloss/vim-javascript'
+" Plugin 'vim-ruby/vim-ruby'
+" Plugin 'tpope/vim-rails'
 
+" rainbow_parentheses 括号匹配高亮
+" vim-trailing-whitespace 去除多余空格
+" vim-indent-guides 可视化缩进
+" vim-powerline 美化状态栏
+" vim-easymotion 快速移动
+" python-syntax py语法高亮
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -151,7 +157,7 @@ let NERDTreeWinPos = "left"
 
 
 " neocomplcache
-"Note: This option must set it in .vimrc(_vimrc).  NOT IN .gvimrc(_gvimrc)!
+" Note This option must set it in .vimrc(_vimrc).  NOT IN .gvimrc(_gvimrc)!
 " Disable AutoComplPop.
 let g:acp_enableAtStartup = 0
 " Use neocomplcache.
