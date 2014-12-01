@@ -2,7 +2,10 @@
 
 I use `vundle` to manage my plugins. Test on ubuntu 14.04
 
-##### Thx https://github.com/humiaozuzu/dot-vimrc
+## github
+
+https://github.com/FlowerWrong/fw-vim
+Thx https://github.com/humiaozuzu/dot-vimrc
 
 ## screenshorts
 
